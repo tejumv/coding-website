@@ -1,0 +1,6 @@
+@import "./variables.css";
+.courses-page h2{ margin-top:8px; margin-bottom:12px; }
+.courses-grid{ display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
+.planet-card{ padding:18px; display:flex; flex-direction:column; gap:10px; align-items:flex-start; }
+.planet-visual{ width:64px;height:64px;border-radius:999px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#13203a,#2a3560); font-weight:800; font-size:18px; color:var(--text) }
+.card-actions{ display:flex; gap:8px; margin-top:auto; }

@@ -1,0 +1,5 @@
+@import "./variables.css";
+.playground{ display:flex; gap:16px; align-items:flex-start; }
+.editor{ flex:1; }
+.output{ width:360px; }
+textarea.code{ width:100%; min-height:360px; border-radius:8px; padding:12px; background:#070913; color:var(--text); border:1px solid rgba(255,255,255,0.03); font-family:var(--mono) }

@@ -1,0 +1,15 @@
+@import "./variables.css";
+
+.community{
+  padding:24px 0;
+}
+.post{
+  background:var(--panel);
+  border-radius:10px;
+  padding:12px;
+  margin-bottom:12px;
+  box-shadow:var(--card-shadow);
+}
+.leaderboard{
+  display:grid; gap:8px;
+}

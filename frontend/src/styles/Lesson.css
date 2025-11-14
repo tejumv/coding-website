@@ -1,0 +1,30 @@
+@import "./variables.css";
+
+.lesson-layout{
+  display:grid;
+  grid-template-columns: 300px 1fr;
+  gap:20px;
+  margin-top:20px;
+}
+
+.lesson-sidebar{
+  background:var(--panel);
+  border-radius:12px;
+  padding:14px;
+  box-shadow:var(--card-shadow);
+  height:calc(100vh - 120px);
+  overflow:auto;
+}
+
+.lesson-main{
+  background:var(--panel);
+  border-radius:12px;
+  padding:20px;
+  box-shadow:var(--card-shadow);
+}
+
+/* responsive */
+@media (max-width:980px){
+  .lesson-layout{ grid-template-columns: 1fr; }
+  .lesson-sidebar{ height:auto; }
+}

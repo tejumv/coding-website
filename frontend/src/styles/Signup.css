@@ -1,0 +1,5 @@
+@import "./variables.css";
+.signup-card{ max-width:480px; margin:40px auto; padding:24px; }
+.signup-form{ display:flex; flex-direction:column; gap:12px; }
+.signup-form input{ padding:12px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); background:transparent; color:var(--text) }
+.form-error{ background:#3c1d2f; color:#ffccd5; padding:10px; border-radius:8px; }

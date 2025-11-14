@@ -1,0 +1,15 @@
+:root{
+  --bg: #0a0f1f;
+  --panel: #0f1724;
+  --muted: #9aa8c8;
+  --text: #e6eef8;
+  --accent: #7c6cff;
+  --accent-2: #9aa8ff;
+  --glass: rgba(255,255,255,0.03);
+  --card-shadow: 0 10px 30px rgba(6,10,20,0.6);
+  --radius: 12px;
+  --max-width: 1200px;
+  --mono: 'Roboto Mono', monospace;
+  --sans: 'Inter', system-ui, Arial;
+}
+[data-theme="dark"]{ /* reserved if needed */ }

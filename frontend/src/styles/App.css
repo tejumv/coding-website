@@ -1,0 +1,44 @@
+@import "./variables.css";
+
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family:var(--sans);
+  background:linear-gradient(180deg, var(--bg), #060818 120%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{ max-width:var(--max-width); margin:0 auto; padding:0 20px; }
+
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:var(--radius);
+  padding:16px;
+  box-shadow:var(--card-shadow);
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+/* buttons */
+.btn{
+  display:inline-block;
+  background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  color:white;
+  padding:10px 14px;
+  border-radius:10px;
+  font-weight:700;
+  text-decoration:none;
+  border:none;
+  cursor:pointer;
+}
+.btn-ghost{
+  background:transparent;
+  color:var(--text);
+  border:1px solid rgba(255,255,255,0.06);
+}
+
+/* utility */
+.muted{color:var(--muted)}
+.site-main{ padding:28px 0; min-height:calc(100vh - 80px); }

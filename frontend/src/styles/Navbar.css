@@ -1,0 +1,25 @@
+@import "./variables.css";
+
+.nav-wrap{
+  position:sticky;
+  top:0;
+  z-index:60;
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  backdrop-filter: blur(6px);
+  border-bottom:1px solid rgba(255,255,255,0.03);
+}
+.nav-inner{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  padding:14px 0;
+  justify-content:space-between;
+}
+.brand{ display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--text); font-weight:800;}
+.brand .rocket{ font-size:20px; transform:translateY(-1px) }
+
+.nav-links{ display:flex; gap:18px; align-items:center; }
+.nav-links a{ color:var(--text); text-decoration:none; font-weight:600; padding:8px 10px; border-radius:8px; }
+.nav-links a.active, .nav-links a:hover{ background: rgba(122,116,255,0.08); color:var(--accent-2); }
+
+.nav-actions{ display:flex; gap:12px; align-items:center; }
